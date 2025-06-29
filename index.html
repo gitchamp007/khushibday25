@@ -21,7 +21,7 @@
 <body>
     <audio autoplay="autoplay" height="100" width="100" id="myAudio2">
         <source src="aud2.mp3" type="audio/mp3" />
-        <embed height="100" width="100" src="aud.mp3" />
+        <embed height="100" width="100" src="aud2.mp3" />
       </audio>
     <div id="wrapper">
         <div class="flag__birthday">
@@ -169,6 +169,12 @@
 
 </body>
 <script>
+    function playAudio() {
+        var audio = document.getElementById("myAudio2");
+        audio.play();
+      }
+
+      
     let datetxt = "30 June";
     let datatxtletter = "I can not even express how much you mean to me bro and today is the day you came into this world. Legit such an important day for me hehe. Thanks to uncle and aunty for getting naughty and making you. Making the most perfect person to ever exist. Happy Birthday Love. I really would love to hug you right now. You have no idea how important you are to me bhai and I feel so helpless not being able to be with you. I really wish I could be there to help you bhai. But you will always have my support and love💕";
     let titleLetter = "To you";
@@ -280,11 +286,5 @@
     });
 
 </script>
-<script>
-      function playAudio() {
-        var audio = document.getElementById("myAudio2");
-        audio.play();
-      }
-    </script>
 
 </html>
